@@ -7,8 +7,8 @@ shogi-league
 # 本番環境
 ## Heroku
 https://shogi-league.herokuapp.com/
-<p>ユーザー名：sugar</p>
-<p>パスワード：7</p>
+<p>ユーザー名：zengoma</p>
+<p>パスワード：114514</p>
 
 ## AWS
 
