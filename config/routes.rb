@@ -1,3 +1,5 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  root to: 'results#index'
+  # resources :results
+  get 'results/:id', to: 'results#win_or_lose'
 end
