@@ -1,3 +1,115 @@
-// Place all the styles related to the results controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+.header {
+  margin: 20px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid lightgray;
+}
+
+.header span {
+  padding-left: 20px;
+  font-size: 25px;
+}
+
+.main {
+  margin: 30px;
+}
+
+.detail {
+  font-size: 15px;
+}
+
+.league-table {
+  margin-top: 20px;
+}
+
+.league-table-title {
+  margin-bottom: 5px;
+}
+
+.league-table td {
+  text-align: center;
+}
+
+.right_down_border {
+  background-image: linear-gradient(to top right, transparent, transparent 48%, black 49%, black 51%, transparent 52%, transparent);
+}
+
+.top-title {
+  height: 35px;
+}
+
+.rank-title {
+  width: 50px;
+  background-color: #FFFFAA;
+}
+
+.player-title {
+  width: 90px;
+  background-color: #EEEEEE;
+}
+
+.opponent-name {
+  width: 90px;
+  background-color: #EEEEEE;
+}
+
+.win-count-title {
+  width: 50px;
+  background-color: #FFD5EC;
+}
+
+.lose-count-title {
+  width: 50px;
+  background-color: #D9E5FF;
+}
+
+.sb-count-title {
+  width: 50px;
+  background-color: #F3FFD8;
+}
+
+.result-cells {
+  height:40px ;
+}
+
+.self-name {
+  height:40px ;
+  background-color: #EEEEEE;
+}
+
+.member-list {
+  margin-top: 30px;
+}
+
+.member-list-title {
+  margin-bottom: 5px;
+}
+
+.member-info {
+  height: 30px;
+}
+
+.member-title {
+  width: 100px;
+  text-align: center;
+  background-color: #EEEEEE;
+}
+
+.account-title {
+  width: 150px;
+  text-align: center;
+}
+
+.achievement-title {
+  width: 500px;
+  text-align: center;
+}
+
+.member-introduction td {
+  height: 30px;
+  text-align: left;
+  padding-left: 5px;
+}
+
+.footer {
+
+}
