@@ -1,0 +1,2 @@
+class Kif < ApplicationRecord
+end

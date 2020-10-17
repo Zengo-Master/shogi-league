@@ -3,16 +3,17 @@ class ResultsController < ApplicationController
 
   def index
     @members = Member.all
+    @kifs = Kif.all
   end
 
   def new
-    @kifu = Result.new
+    @kif = Result.new
   end
 
   def create
-    @kifu = Result.create(result_params)
-    if @kifu.valid?
-      @kifu.save
+    @kif = Result.create(result_params)
+    if @kif.valid?
+      @kif.save
       redirect_to root_path
     else
       render 'new'
@@ -34,7 +35,7 @@ class ResultsController < ApplicationController
   end
 
   def destroy
-    if @kifu.destroy
+    if @kif.destroy
       redirect_to root_path
     else
       redirect_to result_path(@result.id)
@@ -56,9 +57,9 @@ class ResultsController < ApplicationController
 
   private
 
-  def result_params
-    params.require(:result).permit(:kifu)
-  end
+  # def result_params
+  #   params.require(:kif).permit(:)
+  # end
 
   def set_result
     @result = Result.find(params[:id])

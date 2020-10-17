@@ -49,8 +49,13 @@ Ruby/Ruby on Rails/HTML/CSS/JavaScript/MySQL/Github/Visual Studio Code
 | member      | references | null: false |
 | op_id       | integer    | null: false |
 | result      | string     |             |
-| kifu        | text       |             |
 
 ### Association
 
 - belongs_to :member
+
+## kifsテーブル
+
+| Column      | Type       | Options     |
+| ----------- | ---------- | ----------- |
+| kif         | text       | null: false |

@@ -10,7 +10,15 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_10_16_123846) do
+ActiveRecord::Schema.define(version: 2020_10_17_061433) do
+
+  create_table "kifs", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
+    t.integer "self_id", null: false
+    t.integer "op_id", null: false
+    t.text "kif", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
 
   create_table "members", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.string "name"
@@ -24,7 +32,6 @@ ActiveRecord::Schema.define(version: 2020_10_16_123846) do
     t.bigint "member_id"
     t.integer "op_id"
     t.string "result"
-    t.text "kifu"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["member_id"], name: "index_results_on_member_id"
