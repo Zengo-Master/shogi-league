@@ -1,0 +1,16 @@
+<div class="wrapper">
+  <div class="input-forms">
+    <%= form_with(model: @kifu, local: true) do |f| %>
+
+      <div class="kifu-input-form">
+        <%= f.text_area :kifu, placeholder: '棋譜を貼り付け', size: "40x10" %>
+      </div>
+
+      <div class="submit">
+        <%= f.submit "送信", class: 'submit' %>
+      </div>
+
+    <% end %>
+  </div>
+  <%= link_to '戻る', root_path, class: 'back-link' %>
+</div>
