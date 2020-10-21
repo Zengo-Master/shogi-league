@@ -45,18 +45,21 @@ Ruby/Ruby on Rails/HTML/CSS/JavaScript/MySQL/Github/Visual Studio Code
 
 ## results テーブル
 
-| Column      | Type       | Options     |
-| ----------- | ---------- | ----------- |
-| member      | references | null: false |
-| op_id       | integer    | null: false |
-| result      | string     |             |
+| Column | Type       | Options     |
+| ------ | ---------- | ----------- |
+| member | references | null: false |
+| op_id  | integer    | null: false |
+| result | string     |             |
 
 ### Association
 
 - belongs_to :member
 
-## kifsテーブル
+## kifusテーブル
 
-| Column      | Type       | Options     |
-| ----------- | ---------- | ----------- |
-| kif         | text       | null: false |
+| Column | Type    | Options     |
+| ------ | ------- | ----------- |
+| date   | date    | null: false |
+| sente  | integer | null: false |
+| gote   | integer | null: false |
+| kifu   | text    | null: false |
