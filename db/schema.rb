@@ -10,12 +10,22 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_10_17_061433) do
+ActiveRecord::Schema.define(version: 2020_10_21_183059) do
 
   create_table "kifs", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.integer "self_id", null: false
     t.integer "op_id", null: false
-    t.text "kif", null: false
+    t.text "kifu", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "kifus", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
+    t.date "date", null: false
+    t.integer "sente_id", null: false
+    t.integer "gote_id", null: false
+    t.integer "type_id", null: false
+    t.text "kifu", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

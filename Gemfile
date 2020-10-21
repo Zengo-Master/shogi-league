@@ -61,3 +61,4 @@ end
 
 gem 'pry-rails'
 # gem "aws-sdk-s3", require: false
+gem 'active_hash'

@@ -62,4 +62,5 @@ Ruby/Ruby on Rails/HTML/CSS/JavaScript/MySQL/Github/Visual Studio Code
 | date   | date    | null: false |
 | sente  | integer | null: false |
 | gote   | integer | null: false |
+| type   | integer | null: false |
 | kifu   | text    | null: false |
