@@ -71,6 +71,35 @@
   background-color: #EEEEEE;
 }
 
+.new-link {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+.kifu-lists {
+  width: 500px;
+  margin-top: 5px;
+}
+
+.one-kifu {
+  padding: 5px;
+  margin-bottom: 5px;
+  border: 1px solid black;
+  font-size: 20px;
+}
+
+.date, .sente, .gote, .type {
+
+}
+
+.sente, .gote {
+  font-weight: bold;
+}
+
 .member-list {
   margin-top: 30px;
 }
@@ -115,8 +144,4 @@
 
 .input-forms {
   margin-bottom: 10px;
-}
-
-.send {
-
 }

@@ -1,0 +1,52 @@
+<div class="new-wrapper">
+  <div class="input-forms">
+
+  <h2>＜対局情報入力＞</h2>
+
+    <%= form_with(model: @kifu, url: result_path(@kifu.id), local: true) do |f| %>
+
+      <%# 日付 %>
+      <div class="input-field">
+        <%= f.label :date, '日付：' %>
+        <%= raw sprintf(
+                    f.date_select(
+                        :date,
+                        use_month_numbers: true,
+                        start_year:        2015,
+                        end_year:          2025,
+                        default:           Date.today,
+                        date_separator:    '%s'),
+                    '年 ', '月 ') + '日'
+        %>
+      </div>
+
+      <div class="input-field">
+        <%= f.label :sente_id, '先手：' %>
+        <%= f.collection_select :sente_id, Sente.all, :id, :name, {} %>
+      </div>
+
+      <div class="input-field">
+        <%= f.label :gote_id, '後手：' %>
+        <%= f.collection_select :gote_id, Gote.all, :id, :name, {} %>
+      </div>
+
+      <div class="input-field">
+        <%= f.label :type_id, '戦型：' %>
+        <%= f.collection_select :type_id, Type.all, :id, :name, {}  %>
+      </div>
+
+      <div class="input-field">
+        <%= f.label :kifu, '棋譜' %><br>
+        <%= f.text_area :kifu, placeholder: '棋譜を貼り付け', size: "35x5"  %>
+      </div>
+
+      <div class="submit">
+        <%= f.submit "保存", class: 'submit-btn' %>
+      </div>
+
+      <div class="back">
+        <%= link_to "棋譜一覧へ戻る", root_path, class: "back-btn" %>
+      </div>
+    <% end %>
+  </div>
+</div>

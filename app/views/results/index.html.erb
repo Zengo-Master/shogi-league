@@ -33,6 +33,47 @@
     </table>
   </div>
 
+  <div class="new-link">
+    <%= link_to '棋譜投稿ページへ', new_kifu_path %>
+  </div>
+
+  <h2>＜棋譜一覧＞</h2>
+
+  <div class="kifu-lists">
+    <% @kifus.each do |kifu| %>
+      <div class="one-kifu">
+
+        <%# 日付 %>
+        <span class="date">
+          <%= kifu.date %>
+        </span>
+
+        <%# 相手 %>
+        <span class="sente">
+          <%= kifu.sente.name %>
+        </span>
+
+        vs
+
+        <%# 結果 %>
+        <span class="gote">
+          <%= kifu.gote.name %>
+        </span>
+
+        <%# 戦型 %>
+        <span class="type">
+          <%= kifu.type.name %>
+        </span>
+
+        <%# 棋譜リンク %>
+        <span class="kifu-page">
+          <%= link_to '棋譜', kifu_path(kifu.id)  %>
+        </span>
+
+      </div>
+    <% end %>
+  </div>
+
   <div class="member-list">
     <h2 class="member-list-title">【対局者紹介】</h2>
     <table border="2" bordercolor="black" style="border-collapse: collapse" class="member-table">

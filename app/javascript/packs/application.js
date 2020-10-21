@@ -15,3 +15,8 @@ require("../win")
 //
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
+//= require zeroclipboard
+
+$(document).ready(function() {
+  var clip = new ZeroClipboard($("#d_clip_button"))
+});
