@@ -4,7 +4,7 @@
   <h2>＜対局情報入力＞</h2>
 
     <%= form_with(model: @kifu, url: kifus_path, local: true) do |f| %>
-
+    <%= render 'layouts/error_messages', model: f.object %>
       <%# 日付 %>
       <div class="input-field">
         <%= f.label :date, '日付：' %>

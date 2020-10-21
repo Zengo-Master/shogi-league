@@ -16,27 +16,27 @@ RSpec.describe Kifu, type: :model do
       it 'dateが空だと提出できないこと' do
         @kifu.date = ''
         @kifu.valid?
-        expect(@kifu.errors.full_messages).to include("")
+        expect(@kifu.errors.full_messages).to include("日付を入力してください")
       end
       it 'sente_idが空だとできないこと' do
         @kifu.sente_id = ''
         @kifu.valid?
-        expect(@kifu.errors.full_messages).to include("")
+        expect(@kifu.errors.full_messages).to include("先手を入力してください", "先手は数値で入力してください")
       end
       it 'gote_idが空だと提出できないこと' do
         @kifu.gote_id = ''
         @kifu.valid?
-        expect(@kifu.errors.full_messages).to include("")
+        expect(@kifu.errors.full_messages).to include("後手を入力してください", "後手は数値で入力してください")
       end
       it 'type_idが空だと提出できないこと' do
         @kifu.type_id = ''
         @kifu.valid?
-        expect(@kifu.errors.full_messages).to include("")
+        expect(@kifu.errors.full_messages).to include("戦型を入力してください", "戦型は数値で入力してください")
       end
       it 'kifuが空だと提出できないこと' do
-        @kifu.kifu = 0
+        @kifu.kifu = ''
         @kifu.valid?
-        expect(@kifu.errors.full_messages).to include("")
+        expect(@kifu.errors.full_messages).to include("棋譜を入力してください")
       end
     end
   end
