@@ -60,10 +60,10 @@ Ruby/Ruby on Rails/HTML/CSS/JavaScript/MySQL/Github/Visual Studio Code
 
 ## kifusテーブル
 
-| Column | Type    | Options     |
-| ------ | ------- | ----------- |
-| date   | date    | null: false |
-| sente  | integer | null: false |
-| gote   | integer | null: false |
-| type   | integer | null: false |
-| kifu   | text    | null: false |
+| Column   | Type    | Options     |
+| -------- | ------- | ----------- |
+| date     | date    | null: false |
+| sente_id | integer | null: false |
+| gote_id  | integer | null: false |
+| type     | integer | null: false |
+| kifu     | text    | null: false |

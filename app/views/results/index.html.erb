@@ -48,16 +48,18 @@
           <%= kifu.date %>
         </span>
 
-        <%# 相手 %>
-        <span class="sente">
-          <%= kifu.sente.name %>
-        </span>
+        <span class="card">
+          <%# 先手 %>
+          <span class="sente">
+            <%= kifu.sente.name %>
+          </span>
 
-        vs
+          vs
 
-        <%# 結果 %>
-        <span class="gote">
-          <%= kifu.gote.name %>
+          <%# 後手 %>
+          <span class="gote">
+            <%= kifu.gote.name %>
+          </span>
         </span>
 
         <%# 戦型 %>
@@ -67,7 +69,7 @@
 
         <%# 棋譜リンク %>
         <span class="kifu-page">
-          <%= link_to '棋譜', kifu_path(kifu.id)  %>
+          <%= link_to '棋譜を見る', kifu_path(kifu.id)  %>
         </span>
 
       </div>
