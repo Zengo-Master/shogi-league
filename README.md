@@ -20,7 +20,7 @@ https://shogi-league.herokuapp.com/
 ## 勝敗記入
 ![Videotogif](https://user-images.githubusercontent.com/69504629/96793385-3e8b3780-1437-11eb-83a0-7892946e01b3.gif)
 ## 棋譜提出
-![Videotogif (1)](https://user-images.githubusercontent.com/69504629/96794202-be65d180-1438-11eb-9688-e768d1287991.gif)
+![Videotogif (2)](https://user-images.githubusercontent.com/69504629/97051907-04e33980-15bb-11eb-8bf2-7e9f397894ea.gif)
 
 # 工夫したポイント
 <p>リーグ戦の結果記入をクリックだけで済むように実装しました。例えば、AさんがBさんに勝利した場合、AさんとBさんの対戦のマス目をクリックすると「○」が付き、反対側のマス目に「●」が自動で付きます。そして、棋譜入力欄も設け、入力後は「○」か「●」をクリックすると、その対戦棋譜を閲覧することができます。さらに、その棋譜をAIに接続して解析することもできるので、１局の振り返りも可能です。</p>
