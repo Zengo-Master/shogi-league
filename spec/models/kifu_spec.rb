@@ -28,11 +28,6 @@ RSpec.describe Kifu, type: :model do
         @kifu.valid?
         expect(@kifu.errors.full_messages).to include("後手を入力してください", "後手は数値で入力してください")
       end
-      it 'type_idが空だと提出できないこと' do
-        @kifu.type_id = ''
-        @kifu.valid?
-        expect(@kifu.errors.full_messages).to include("戦型を入力してください", "戦型は数値で入力してください")
-      end
       it 'kifuが空だと提出できないこと' do
         @kifu.kifu = ''
         @kifu.valid?
