@@ -23,16 +23,15 @@ https://shogi-league.herokuapp.com/
 ![Videotogif (1)](https://user-images.githubusercontent.com/69504629/96794202-be65d180-1438-11eb-9688-e768d1287991.gif)
 
 # 工夫したポイント
-<p>リーグ戦の結果記入をクリックだけで済むように実装しました。例えば、AさんがBさんに勝利した場合、AさんとBさんの対戦のマス目をクリックすると「○」が付き、反対側のマス目に「●」が自動で付きます。そして、棋譜入力欄も設け、入力後は「○」か「●」をクリックすると、その対戦棋譜を閲覧することができます。さらに、その棋譜をAIに接続して解析することもできるので、高度な振り返りも可能です。</p>
+<p>リーグ戦の結果記入をクリックだけで済むように実装しました。例えば、AさんがBさんに勝利した場合、AさんとBさんの対戦のマス目をクリックすると「○」が付き、反対側のマス目に「●」が自動で付きます。そして、棋譜入力欄も設け、入力後は「○」か「●」をクリックすると、その対戦棋譜を閲覧することができます。さらに、その棋譜をAIに接続して解析することもできるので、１局の振り返りも可能です。</p>
 
 # 使用技術（開発環境）
 Ruby/Ruby on Rails/HTML/CSS/JavaScript/MySQL/Github/Visual Studio Code
 
 # 課題や今後実装したい機能
-
+メンバーはseedファイルで生成となっていますが、ブラウザから追加・削除できれば便利かと思います。その場合、tdも自動生成されなければなりません。
 
 # DB設計
-
 ## members テーブル
 
 | Column      | Type   | Options     |
@@ -65,5 +64,4 @@ Ruby/Ruby on Rails/HTML/CSS/JavaScript/MySQL/Github/Visual Studio Code
 | date     | date    | null: false |
 | sente_id | integer | null: false |
 | gote_id  | integer | null: false |
-| type     | integer | null: false |
 | kifu     | text    | null: false |
