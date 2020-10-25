@@ -5,5 +5,5 @@ ja:
        date: 日付
        sente_id: 先手
        gote_id: 後手
-       type_id: 戦型
+       result_id: 結果
        kifu: 棋譜
