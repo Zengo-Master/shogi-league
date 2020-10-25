@@ -4,6 +4,7 @@ class CreateKifus < ActiveRecord::Migration[6.0]
       t.date       :date,        null: false
       t.integer    :sente_id,    null: false
       t.integer    :gote_id,     null: false
+      t.integer    :result_id,   null: false
       t.text       :kifu,        null: false
 
       t.timestamps

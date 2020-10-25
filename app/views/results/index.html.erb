@@ -49,6 +49,15 @@
         </span>
 
         <span class="card">
+
+          <span class="winorlose">
+            <% if kifu.result_id == 2 %>
+              ○
+            <% elsif kifu.result_id == 3 %>
+              ●
+            <% end %>
+            </span>
+
           <%# 先手 %>
           <span class="sente">
             <%= kifu.sente.name %>
@@ -60,6 +69,18 @@
           <span class="gote">
             <%= kifu.gote.name %>
           </span>
+
+          <span class="winorlose">
+            <% if kifu.result_id == 3 %>
+              ○
+            <% elsif kifu.result_id == 2 %>
+              ●
+            <% elsif kifu.result_id == 4 %>
+              千
+            <% elsif kifu.result_id == 5 %>
+              持
+            <% end %>
+            </span>
         </span>
 
         <%# 棋譜リンク %>

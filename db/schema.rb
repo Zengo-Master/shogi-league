@@ -16,6 +16,7 @@ ActiveRecord::Schema.define(version: 2020_10_21_183059) do
     t.date "date", null: false
     t.integer "sente_id", null: false
     t.integer "gote_id", null: false
+    t.integer "result_id", null: false
     t.text "kifu", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
