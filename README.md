@@ -30,9 +30,6 @@ http://54.238.77.96/
 # 使用技術（開発環境）
 Ruby/Ruby on Rails/HTML/CSS/JavaScript/MySQL/Github/Visual Studio Code
 
-# 課題や今後実装したい機能
-メンバーはseedファイルで生成となっていますが、ブラウザから追加・削除できれば便利かと思います。その場合、tdも自動生成されなければなりません。
-
 # DB設計
 ## members テーブル
 
