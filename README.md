@@ -5,8 +5,6 @@ shogi-league
 <p>オンライン将棋大会の対戦記録が行えます。総当たりリーグ戦の結果を手軽に記入し、棋譜も保存できます。また、その棋譜をAIで解析することもできます。</p>
 
 # 本番環境
-
-## AWS
 http://54.238.77.96/
 <p>ユーザー名：zengoma</p>
 <p>パスワード：114514</p>
@@ -61,3 +59,18 @@ Ruby/Ruby on Rails/HTML/CSS/JavaScript/MySQL/Github/Visual Studio Code
 | gote_id   | integer | null: false |
 | result_id | integer | null: false |
 | kifu      | text    | null: false |
+
+# CLEARDB_DATABASE_URL
+mysql://b4dad2c65586d9:437bc68f@us-cdbr-east-02.cleardb.com/heroku_a4d662ee57bacbd?reconnect=true
+
+## ホスト
+us-cdbr-east-02.cleardb.com
+
+## ユーザー名
+b4dad2c65586d9
+
+## パスワード
+437bc68f
+
+## データベース
+heroku_a4d662ee57bacbd
