@@ -5,10 +5,6 @@ shogi-league
 <p>オンライン将棋大会の対戦記録が行えます。総当たりリーグ戦の結果を手軽に記入し、棋譜も保存できます。また、その棋譜をAIで解析することもできます。</p>
 
 # 本番環境
-## Heroku
-https://shogi-league.herokuapp.com/
-<p>ユーザー名：zengoma</p>
-<p>パスワード：114514</p>
 
 ## AWS
 http://54.238.77.96/
