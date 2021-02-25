@@ -10,7 +10,10 @@ var json_data = {"_1":{
                       "_7":{"member":"Gさん","WinOrLose":0},
                       "_8":{"member":"Hさん","WinOrLose":0},
                       "_9":{"member":"Iさん","WinOrLose":0},
-                      "_10":{"member":"Jさん","WinOrLose":0}
+                      "_10":{"member":"Fさん","WinOrLose":0},
+                      "_11":{"member":"Gさん","WinOrLose":0},
+                      "_12":{"member":"Hさん","WinOrLose":0},
+                      "_13":{"member":"Iさん","WinOrLose":0}
                     },
                  "_2":{
                       "member":"Bさん",
@@ -23,7 +26,10 @@ var json_data = {"_1":{
                       "_7":{"member":"Gさん","WinOrLose":0},
                       "_8":{"member":"Hさん","WinOrLose":0},
                       "_9":{"member":"Iさん","WinOrLose":0},
-                      "_10":{"member":"Jさん","WinOrLose":0}
+                      "_10":{"member":"Fさん","WinOrLose":0},
+                      "_11":{"member":"Gさん","WinOrLose":0},
+                      "_12":{"member":"Hさん","WinOrLose":0},
+                      "_13":{"member":"Iさん","WinOrLose":0}
                     },
                 "_3":{
                       "member":"Cさん",
@@ -36,7 +42,10 @@ var json_data = {"_1":{
                       "_7":{"member":"Gさん","WinOrLose":0},
                       "_8":{"member":"Hさん","WinOrLose":0},
                       "_9":{"member":"Iさん","WinOrLose":0},
-                      "_10":{"member":"Jさん","WinOrLose":0}
+                      "_10":{"member":"Fさん","WinOrLose":0},
+                      "_11":{"member":"Gさん","WinOrLose":0},
+                      "_12":{"member":"Hさん","WinOrLose":0},
+                      "_13":{"member":"Iさん","WinOrLose":0}
                     },
                 "_4":{
                       "member":"Dさん",
@@ -49,7 +58,10 @@ var json_data = {"_1":{
                       "_7":{"member":"Gさん","WinOrLose":0},
                       "_8":{"member":"Hさん","WinOrLose":0},
                       "_9":{"member":"Iさん","WinOrLose":0},
-                      "_10":{"member":"Jさん","WinOrLose":0}
+                      "_10":{"member":"Fさん","WinOrLose":0},
+                      "_11":{"member":"Gさん","WinOrLose":0},
+                      "_12":{"member":"Hさん","WinOrLose":0},
+                      "_13":{"member":"Iさん","WinOrLose":0}
                     },
                 "_5":{
                       "member":"Eさん",
@@ -62,7 +74,10 @@ var json_data = {"_1":{
                       "_7":{"member":"Gさん","WinOrLose":0},
                       "_8":{"member":"Hさん","WinOrLose":0},
                       "_9":{"member":"Iさん","WinOrLose":0},
-                      "_10":{"member":"Jさん","WinOrLose":0}
+                      "_10":{"member":"Fさん","WinOrLose":0},
+                      "_11":{"member":"Gさん","WinOrLose":0},
+                      "_12":{"member":"Hさん","WinOrLose":0},
+                      "_13":{"member":"Iさん","WinOrLose":0}
                     },
                 "_6":{
                       "member":"Fさん",
@@ -75,33 +90,42 @@ var json_data = {"_1":{
                       "_7":{"member":"Gさん","WinOrLose":0},
                       "_8":{"member":"Hさん","WinOrLose":0},
                       "_9":{"member":"Iさん","WinOrLose":0},
-                      "_10":{"member":"Jさん","WinOrLose":0}
+                      "_10":{"member":"Fさん","WinOrLose":0},
+                      "_11":{"member":"Gさん","WinOrLose":0},
+                      "_12":{"member":"Hさん","WinOrLose":0},
+                      "_13":{"member":"Iさん","WinOrLose":0}
                     },
                 "_7":{
                       "member":"Gさん",
                       "_1":{"member":"Aさん","WinOrLose":0},
                       "_2":{"member":"Bさん","WinOrLose":0},
-                      "_3":{"member":"Cさん","WinOrLose":9},
+                      "_3":{"member":"Cさん","WinOrLose":0},
                       "_4":{"member":"Dさん","WinOrLose":0},
                       "_5":{"member":"Eさん","WinOrLose":0},
                       "_6":{"member":"Fさん","WinOrLose":0},
                       "_7":{"member":"Gさん","WinOrLose":9},
                       "_8":{"member":"Hさん","WinOrLose":0},
                       "_9":{"member":"Iさん","WinOrLose":0},
-                      "_10":{"member":"Jさん","WinOrLose":0}
+                      "_10":{"member":"Fさん","WinOrLose":0},
+                      "_11":{"member":"Gさん","WinOrLose":0},
+                      "_12":{"member":"Hさん","WinOrLose":0},
+                      "_13":{"member":"Iさん","WinOrLose":0}
                     },
                 "_8":{
                       "member":"Hさん",
                       "_1":{"member":"Aさん","WinOrLose":0},
                       "_2":{"member":"Bさん","WinOrLose":0},
                       "_3":{"member":"Cさん","WinOrLose":0},
-                      "_4":{"member":"Dさん","WinOrLose":9},
+                      "_4":{"member":"Dさん","WinOrLose":0},
                       "_5":{"member":"Eさん","WinOrLose":0},
                       "_6":{"member":"Fさん","WinOrLose":0},
                       "_7":{"member":"Gさん","WinOrLose":0},
                       "_8":{"member":"Hさん","WinOrLose":9},
                       "_9":{"member":"Iさん","WinOrLose":0},
-                      "_10":{"member":"Jさん","WinOrLose":0}
+                      "_10":{"member":"Fさん","WinOrLose":0},
+                      "_11":{"member":"Gさん","WinOrLose":0},
+                      "_12":{"member":"Hさん","WinOrLose":0},
+                      "_13":{"member":"Iさん","WinOrLose":0}
                     },
                 "_9":{
                       "member":"Iさん",
@@ -114,7 +138,10 @@ var json_data = {"_1":{
                       "_7":{"member":"Gさん","WinOrLose":0},
                       "_8":{"member":"Hさん","WinOrLose":0},
                       "_9":{"member":"Iさん","WinOrLose":9},
-                      "_10":{"member":"Jさん","WinOrLose":0}
+                      "_10":{"member":"Fさん","WinOrLose":0},
+                      "_11":{"member":"Gさん","WinOrLose":0},
+                      "_12":{"member":"Hさん","WinOrLose":0},
+                      "_13":{"member":"Iさん","WinOrLose":0}
                     },
                 "_10":{
                       "member":"Jさん",
@@ -127,8 +154,59 @@ var json_data = {"_1":{
                       "_7":{"member":"Gさん","WinOrLose":0},
                       "_8":{"member":"Hさん","WinOrLose":0},
                       "_9":{"member":"Iさん","WinOrLose":0},
-                      "_10":{"member":"Jさん","WinOrLose":9}
-                    }
+                      "_10":{"member":"Fさん","WinOrLose":9},
+                      "_11":{"member":"Gさん","WinOrLose":0},
+                      "_12":{"member":"Hさん","WinOrLose":0},
+                      "_13":{"member":"Iさん","WinOrLose":0}
+                    },
+                    "_11":{
+                      "member":"Kさん",
+                      "_1":{"member":"Aさん","WinOrLose":0},
+                      "_2":{"member":"Bさん","WinOrLose":0},
+                      "_3":{"member":"Cさん","WinOrLose":0},
+                      "_4":{"member":"Dさん","WinOrLose":0},
+                      "_5":{"member":"Eさん","WinOrLose":0},
+                      "_6":{"member":"Fさん","WinOrLose":0},
+                      "_7":{"member":"Gさん","WinOrLose":0},
+                      "_8":{"member":"Hさん","WinOrLose":0},
+                      "_9":{"member":"Iさん","WinOrLose":0},
+                      "_10":{"member":"Fさん","WinOrLose":0},
+                      "_11":{"member":"Gさん","WinOrLose":9},
+                      "_12":{"member":"Hさん","WinOrLose":0},
+                      "_13":{"member":"Iさん","WinOrLose":0}
+                    },
+                    "_12":{
+                      "member":"Lさん",
+                      "_1":{"member":"Aさん","WinOrLose":0},
+                      "_2":{"member":"Bさん","WinOrLose":0},
+                      "_3":{"member":"Cさん","WinOrLose":0},
+                      "_4":{"member":"Dさん","WinOrLose":0},
+                      "_5":{"member":"Eさん","WinOrLose":0},
+                      "_6":{"member":"Fさん","WinOrLose":0},
+                      "_7":{"member":"Gさん","WinOrLose":0},
+                      "_8":{"member":"Hさん","WinOrLose":0},
+                      "_9":{"member":"Iさん","WinOrLose":0},
+                      "_10":{"member":"Fさん","WinOrLose":0},
+                      "_11":{"member":"Gさん","WinOrLose":0},
+                      "_12":{"member":"Hさん","WinOrLose":9},
+                      "_13":{"member":"Iさん","WinOrLose":0}
+                    },
+                    "_13":{
+                      "member":"Mさん",
+                      "_1":{"member":"Aさん","WinOrLose":0},
+                      "_2":{"member":"Bさん","WinOrLose":0},
+                      "_3":{"member":"Cさん","WinOrLose":0},
+                      "_4":{"member":"Dさん","WinOrLose":0},
+                      "_5":{"member":"Eさん","WinOrLose":0},
+                      "_6":{"member":"Fさん","WinOrLose":0},
+                      "_7":{"member":"Gさん","WinOrLose":0},
+                      "_8":{"member":"Hさん","WinOrLose":0},
+                      "_9":{"member":"Iさん","WinOrLose":0},
+                      "_10":{"member":"Fさん","WinOrLose":0},
+                      "_11":{"member":"Gさん","WinOrLose":0},
+                      "_12":{"member":"Hさん","WinOrLose":0},
+                      "_13":{"member":"Iさん","WinOrLose":9}
+                    },
 };
 
 // 初期処理
