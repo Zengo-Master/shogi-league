@@ -78,6 +78,20 @@ b4dad2c65586d9
 ## データベース
 heroku_a4d662ee57bacbd
 
+<!-- # Member.create(name:"すぎうら", account: "Izumi_Konata", achievement: "全国ベスト8が2回")
+# Member.create(name:"ぷく", account: "kenokohe", achievement: "現役奨励会有段")
+# Member.create(name:"ほっしー", account: "Aleister_Crowley", achievement: "元奨、全国優勝2回、プロ棋戦出場経験有")
+# Member.create(name:"あつと", account: "endo_sakura", achievement: "現役奨励会４級")
+# Member.create(name:"しゅん", account: "Ohashi Keika", achievement: "現役奨励会三段")
+# Member.create(name:"しゅうまい", account: "shushu2016", achievement: "現役奨励会員")
+# Member.create(name:"TK", account: "chaos chaos", achievement: "現役奨励会員")
+# Member.create(name:"こいし", account: "Kirakrbosi", achievement: "全国準優勝1回、ベスト4が1回")
+# Member.create(name:"れおす", account: "praimary", achievement: "全国優勝3回、プロ公式戦７勝")
+# Member.create(name:"カイト", account: "kondo_2sei", achievement: "全国優勝２回")
+# Member.create(name:"へいや", account: "KH1995", achievement: "全国準優勝１回")
+# Member.create(name:"ちょうの", account: "Chono Hisayosi", achievement: "全国優勝２回")
+# Member.create(name:"きふわるべ", account: "Kifuwarube", achievement: "天才きふわらべ氏によって生み出されたきふわるべ") -->
+
 <!-- <%# 11人 %>
 <td id="op_<%= i + 1 %>_1" data-id="<%= (i * 11) + 1 %>_<%= (11 * (i * 11 + 1)) - (121 * i + (10 - i)) %>"><%= Result.find((i * 11) + 1).result %></td>
 <td id="op_<%= i + 1 %>_2" data-id="<%= (i * 11) + 2 %>_<%= (11 * (i * 11 + 2)) - (121 * i + (10 - i)) %>"><%= Result.find((i * 11) + 2).result %></td>
