@@ -1,6 +1,6 @@
 <div class="main">
   <div class="league-table">
-    <h2 class="league-table-title">【リーグ表】<span class="detail">※勝利のマス目をクリック　間違えたら再クリックで取消</span></h2>
+    <h2 class="league-table-title">【リーグ表】<span class="detail">※勝利のマス目をクリック 間違えたら再クリックで取消</span></h2>
     <table id="winorlose_table" border="2" bordercolor="black" style="border-collapse: collapse">
       <tr class="top-title">
         <th class="player-title">対局者</th>
@@ -16,19 +16,21 @@
       <% @members.each_with_index do |member, i| %>
       <tr class="result-cells">
         <td class="self-name"><%= member.name %></td>
-        <td id="op_<%= i + 1 %>_1" data-id="<%= (i * 13) + 1 %>_<%= (13 * (i * 13 + 1)) - (169 * i + (12 - i)) %>"><%= Result.find((i * 13) + 1).result %></td>
-        <td id="op_<%= i + 1 %>_2" data-id="<%= (i * 13) + 2 %>_<%= (13 * (i * 13 + 2)) - (169 * i + (12 - i)) %>"><%= Result.find((i * 13) + 2).result %></td>
-        <td id="op_<%= i + 1 %>_3" data-id="<%= (i * 13) + 3 %>_<%= (13 * (i * 13 + 3)) - (169 * i + (12 - i)) %>"><%= Result.find((i * 13) + 3).result %></td>
-        <td id="op_<%= i + 1 %>_4" data-id="<%= (i * 13) + 4 %>_<%= (13 * (i * 13 + 4)) - (169 * i + (12 - i)) %>"><%= Result.find((i * 13) + 4).result %></td>
-        <td id="op_<%= i + 1 %>_5" data-id="<%= (i * 13) + 5 %>_<%= (13 * (i * 13 + 5)) - (169 * i + (12 - i)) %>"><%= Result.find((i * 13) + 5).result %></td>
-        <td id="op_<%= i + 1 %>_6" data-id="<%= (i * 13) + 6 %>_<%= (13 * (i * 13 + 6)) - (169 * i + (12 - i)) %>"><%= Result.find((i * 13) + 6).result %></td>
-        <td id="op_<%= i + 1 %>_7" data-id="<%= (i * 13) + 7 %>_<%= (13 * (i * 13 + 7)) - (169 * i + (12 - i)) %>"><%= Result.find((i * 13) + 7).result %></td>
-        <td id="op_<%= i + 1 %>_8" data-id="<%= (i * 13) + 8 %>_<%= (13 * (i * 13 + 8)) - (169 * i + (12 - i)) %>"><%= Result.find((i * 13) + 8).result %></td>
-        <td id="op_<%= i + 1 %>_9" data-id="<%= (i * 13) + 9 %>_<%= (13 * (i * 13 + 9)) - (169 * i + (12 - i)) %>"><%= Result.find((i * 13) + 9).result %></td>
-        <td id="op_<%= i + 1 %>_10" data-id="<%= (i * 13) + 10 %>_<%= (13 * (i * 13 + 10)) - (169 * i + (12 - i)) %>"><%= Result.find((i * 13) + 10).result %></td>
-        <td id="op_<%= i + 1 %>_11" data-id="<%= (i * 13) + 11 %>_<%= (13 * (i * 13 + 11)) - (169 * i + (12 - i)) %>"><%= Result.find((i * 13) + 11).result %></td>
-        <td id="op_<%= i + 1 %>_12" data-id="<%= (i * 13) + 12 %>_<%= (13 * (i * 13 + 12)) - (169 * i + (12 - i)) %>"><%= Result.find((i * 13) + 12).result %></td>
-        <td id="op_<%= i + 1 %>_13" data-id="<%= (i * 13) + 13 %>_<%= (13 * (i * 13 + 13)) - (169 * i + (12 - i)) %>"><%= Result.find((i * 13) + 13).result %></td>
+        
+        <%# 11人 %>
+        <td id="op_<%= i + 1 %>_1" data-id="<%= (i * 11) + 1 %>_<%= (11 * (i * 11 + 1)) - (121 * i + (10 - i)) %>"><%= Result.find((i * 11) + 1).result %></td>
+        <td id="op_<%= i + 1 %>_2" data-id="<%= (i * 11) + 2 %>_<%= (11 * (i * 11 + 2)) - (121 * i + (10 - i)) %>"><%= Result.find((i * 11) + 2).result %></td>
+        <td id="op_<%= i + 1 %>_3" data-id="<%= (i * 11) + 3 %>_<%= (11 * (i * 11 + 3)) - (121 * i + (10 - i)) %>"><%= Result.find((i * 11) + 3).result %></td>
+        <td id="op_<%= i + 1 %>_4" data-id="<%= (i * 11) + 4 %>_<%= (11 * (i * 11 + 4)) - (121 * i + (10 - i)) %>"><%= Result.find((i * 11) + 4).result %></td>
+        <td id="op_<%= i + 1 %>_5" data-id="<%= (i * 11) + 5 %>_<%= (11 * (i * 11 + 5)) - (121 * i + (10 - i)) %>"><%= Result.find((i * 11) + 5).result %></td>
+        <td id="op_<%= i + 1 %>_6" data-id="<%= (i * 11) + 6 %>_<%= (11 * (i * 11 + 6)) - (121 * i + (10 - i)) %>"><%= Result.find((i * 11) + 6).result %></td>
+        <td id="op_<%= i + 1 %>_7" data-id="<%= (i * 11) + 7 %>_<%= (11 * (i * 11 + 7)) - (121 * i + (10 - i)) %>"><%= Result.find((i * 11) + 7).result %></td>
+        <td id="op_<%= i + 1 %>_8" data-id="<%= (i * 11) + 8 %>_<%= (11 * (i * 11 + 8)) - (121 * i + (10 - i)) %>"><%= Result.find((i * 11) + 8).result %></td>
+        <td id="op_<%= i + 1 %>_9" data-id="<%= (i * 11) + 9 %>_<%= (11 * (i * 11 + 9)) - (121 * i + (10 - i)) %>"><%= Result.find((i * 11) + 9).result %></td>
+        <td id="op_<%= i + 1 %>_10" data-id="<%= (i * 11) + 10 %>_<%= (11 * (i * 11 + 10)) - (121 * i + (10 - i)) %>"><%= Result.find((i * 11) + 10).result %></td>
+        <td id="op_<%= i + 1 %>_11" data-id="<%= (i * 11) + 11 %>_<%= (11 * (i * 11 + 11)) - (121 * i + (10 - i)) %>"><%= Result.find((i * 11) + 11).result %></td>
+
+        <%# 勝敗 %>
         <td id="win_<%= i + 1 %>">0</td>
         <td id="lose_<%= i + 1 %>">0</td>
       </tr>
