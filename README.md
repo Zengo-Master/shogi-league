@@ -78,6 +78,18 @@ b4dad2c65586d9
 ## データベース
 heroku_a4d662ee57bacbd
 
+<!-- <%# 10人 %> -->
+<td id="op_<%= i + 1 %>_1" data-id="<%= (i * 10) + 1 %>_<%= (10 * (i * 10 + 1)) - (100 * i + (9 - i)) %>"><%= Result.find((i * 10) + 1).result %></td>
+<td id="op_<%= i + 1 %>_2" data-id="<%= (i * 10) + 2 %>_<%= (10 * (i * 10 + 2)) - (100 * i + (9 - i)) %>"><%= Result.find((i * 10) + 2).result %></td>
+<td id="op_<%= i + 1 %>_3" data-id="<%= (i * 10) + 3 %>_<%= (10 * (i * 10 + 3)) - (100 * i + (9 - i)) %>"><%= Result.find((i * 10) + 3).result %></td>
+<td id="op_<%= i + 1 %>_4" data-id="<%= (i * 10) + 4 %>_<%= (10 * (i * 10 + 4)) - (100 * i + (9 - i)) %>"><%= Result.find((i * 10) + 4).result %></td>
+<td id="op_<%= i + 1 %>_5" data-id="<%= (i * 10) + 5 %>_<%= (10 * (i * 10 + 5)) - (100 * i + (9 - i)) %>"><%= Result.find((i * 10) + 5).result %></td>
+<td id="op_<%= i + 1 %>_6" data-id="<%= (i * 10) + 6 %>_<%= (10 * (i * 10 + 6)) - (100 * i + (9 - i)) %>"><%= Result.find((i * 10) + 6).result %></td>
+<td id="op_<%= i + 1 %>_7" data-id="<%= (i * 10) + 7 %>_<%= (10 * (i * 10 + 7)) - (100 * i + (9 - i)) %>"><%= Result.find((i * 10) + 7).result %></td>
+<td id="op_<%= i + 1 %>_8" data-id="<%= (i * 10) + 8 %>_<%= (10 * (i * 10 + 8)) - (100 * i + (9 - i)) %>"><%= Result.find((i * 10) + 8).result %></td>
+<td id="op_<%= i + 1 %>_9" data-id="<%= (i * 10) + 9 %>_<%= (10 * (i * 10 + 9)) - (100 * i + (9 - i)) %>"><%= Result.find((i * 10) + 9).result %></td>
+<td id="op_<%= i + 1 %>_10" data-id="<%= (i * 10) + 10 %>_<%= (10 * (i * 10 + 10)) - (100 * i + (9 - i)) %>"><%= Result.find((i * 10) + 10).result %></td>
+
 <!-- <%# 11人 %>
 <td id="op_<%= i + 1 %>_1" data-id="<%= (i * 11) + 1 %>_<%= (11 * (i * 11 + 1)) - (121 * i + (10 - i)) %>"><%= Result.find((i * 11) + 1).result %></td>
 <td id="op_<%= i + 1 %>_2" data-id="<%= (i * 11) + 2 %>_<%= (11 * (i * 11 + 2)) - (121 * i + (10 - i)) %>"><%= Result.find((i * 11) + 2).result %></td>
